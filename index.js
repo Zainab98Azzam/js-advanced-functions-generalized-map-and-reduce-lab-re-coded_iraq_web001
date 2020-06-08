@@ -3,4 +3,5 @@ const mapfunction = function(array,func){
   array.forEach(index=>{
     resultarray.push(fun(index))
   })
+  return resultarray
 }
