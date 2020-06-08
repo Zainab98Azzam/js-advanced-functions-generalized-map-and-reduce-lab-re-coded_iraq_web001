@@ -10,7 +10,7 @@ function reduce(array, func, startingPoint){
      let accumulator;
      let index;
 
-   else {
+   
          accumulator = func(array[0],array[1]);
          index = 2;
      
